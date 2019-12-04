@@ -43,12 +43,14 @@
 
                 </tr>
             </thead>
+            { % for produto in produtos: % }
             <tr>
-                <td>Corona</td>
-                <td>30</td>
-                <td>Top</td>
-                <td>4.50</td>
+                <td>{{ produto['cerveja'] }}</td>
+                <td>{{ produto['teor'] }}</td>
+                <td>{{ produto['tipo'] }}</td>
+                <td>{{ produto['valor'] }}</td>
             </tr>
+            { % endfor % }
     </div>
 
     </div>

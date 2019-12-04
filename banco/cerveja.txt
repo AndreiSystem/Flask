@@ -1,0 +1,2 @@
+Corona;30;Top;324.0
+Bud;23;Forte;5.6
