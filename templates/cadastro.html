@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>{{nome}} - Home</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../static/img/hbsis-logo.png" alt="">
+            <span>hbsis</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="/">inicio</a>
+            </li>
+            <li style="color: #3934d1;">|</li>
+            <li>
+                <a href="/listagem">listagem</a>
+            </li>
+            <li style="color: #3934d1;">|</li>
+            <li>
+                <a href="/cadastrar">cadastrar produto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="title">
+        <h1>Cadastrar Produto</h1>
+    </div>
+
+    <div class="container-register">
+        <form class="form-size" action="/salvar" method="GET">
+            <p>Cerveja</p>
+            <input type="text" name="cerveja">
+            <p>Teor (%)</p>
+            <input type="text" name="teor">
+            <p>Tipo</p>
+            <input type="text" name="tipo">
+            <p>Valor</p>
+            <input type="text" name="valor">
+
+            <input class="button" type="submit" value="Salvar">
+        </form>
+    </div>
+
+</body>
+
+</html>
